@@ -1,0 +1,14 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+    var envMessage = ViewData["EnvMessage"]?.ToString();
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+  
+
+    <h2>Message from Environment</h2>
+    <p style="font-size:1.2rem; color:darkblue;">
+        @envMessage
+    </p>
+</div>

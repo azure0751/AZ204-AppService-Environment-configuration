@@ -1,0 +1,5 @@
+/appserviceConfig/bin
+/appserviceConfig/obj
+/appserviceConfig/Properties/PublishProfiles
+/web-appconfig/bin
+/web-appconfig/obj
